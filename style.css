@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "idroid";
+    src: url("fontes/IDroid.otf") format("opentype");
+}  
+
+body {
+    background-color: #e8e7c2;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(180deg, #1a7a44, #043d1c);
+    color: white;
+    top: 100%;
+    margin: 0px;
+}
+
+header > h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+
+
+nav > .painel {
+    color: rgba(255, 255, 255, 0.767);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.painel:hover {
+    background-color: rgba(255, 255, 255, 0.267);
+    color: black;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    transition: 0.2s;
+}
+
+.links {
+    text-decoration: none;
+    background-color: #2ac46d;
+    color: #043d1c;
+    font-weight: bold;
+    padding: 3px;
+}
+
+main {
+    background-color: white;
+    max-width: 840px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+main > section > h1 {
+    font-family: "idroid", sans-serif;
+    color: #043d1c;
+    padding: 0px 10px;
+}
+
+main > section > h2 {
+    font-family: "idroid", sans-serif;
+    color: #043d1c;
+    background-image: linear-gradient(90deg, #0caf50, #fff);
+    padding: 0px 8px;
+}
+
+main > section > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 1.3em;
+    text-align: justify;
+    line-height: 1.5em;
+    margin: 20px;
+}
+
+.imagens-01 {
+    max-width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+.image-01 {
+    width: 100%;
+   max-width: 100%;
+}
+
+.imagens-02 {
+    max-width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+
+.image-02 {
+     width: 100%;
+   max-width: 100%;
+}
+
+.imagens-03 {
+    max-width: 300px;
+    padding: 10px;
+    margin: auto;
+}
+
+.image {
+    width: 100%;
+   max-width: 100%;
+}
+
+.videos {
+    display: block;
+    max-width: 800px;
+    padding: 35px;
+    margin: 0px;
+    background-color: #043d1c;
+}
+
+.videos > video {
+   width: 100%;
+   max-width: 100%;
+}
+
+footer {
+    background-color: white;
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+}
+
+footer > section {
+    background-color: #2ac46d;
+    color: white;
+    border-radius: 8px;
+}
+
+footer > section > h2 {
+    background-color: #043d1c;
+    color: white;
+    border-radius: 8px 8px 0px 0px;
+    padding: 5px;
+}
+
+footer > section > p {
+    color: black;
+    text-align: justify;
+    text-indent: 1em;
+    padding: 0.5em;
+}
+
+footer > p {
+    font-size: 0.9em;
+    text-align: justify;
+    text-indent: 1em;
+    padding: 0.5em;
+}
+
+span {
+    color: #043d1c;
+    font-weight: bold;
+}
+
+
+.lista > ul {
+    display: inline-block;
+    flex-direction: column;
+    list-style: none;
+}
+
+
+.text{
+    text-decoration: underline;
+    text-decoration-style:dashed;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+}
+
+.lista > ul > li::before {
+    content: "✔️";
+    margin-right: 2px;
+}
+
+.barra {
+    color: white;
+    background-color: #043d1c;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
